@@ -8,7 +8,13 @@
 #include "memory_protection.h"
 #include <main.h>
 
+get_selector(void)
+{
 
+}
+l
+
+//this is only for modify test ben;
 int main(void)
 {
 
@@ -16,6 +22,8 @@ int main(void)
     chSysInit();
     mpu_init();
 
+    eft_motor_set_speed(int motor_leftspeed);
+    right_motor_set_speed(int motor_rightspeed);
 
     /* Infinite loop. */
     while (1) {
